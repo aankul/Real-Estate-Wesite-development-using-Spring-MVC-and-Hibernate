@@ -1,0 +1,12 @@
+create database test1;
+use test1;
+select * from books;
+select * from user;
+select * from property;
+select * from seller;
+select * from features;
+select * from property_features;
+select * from message;
+select * from cart;
+insert into user (city, dob, email, firstName, lastName, password, phone, state, street, userId, userType, zip, personId) values ("admin", '2012-12-12', "admin", "admin", "admin", "admin", 0, "admin", "admin", "admin", "admin", "admin", 420)
+
